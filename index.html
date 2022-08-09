@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gradient Background</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Gradient Background</title>
 </head>
-<body id="gradient">
+<body id="gradient" onload="setGradient()">
 	<h1>Background Generator</h1>
 	<input class="color1" type="color" name="color1" value="#00ff00">
 	<input class="color2" type="color" name="color2" value="#ff0000">
 	<h2>Current CSS Background</h2>
 	<h3></h3>
+	<h4></h4>
+
+	<button id="buttonRandomColor">Generate Random Gradient</button>
+
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
